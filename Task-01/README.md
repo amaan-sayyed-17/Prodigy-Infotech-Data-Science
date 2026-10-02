@@ -21,9 +21,10 @@ The dataset is a World Bank population dataset. The script automatically detects
 ## Files
 - `task01.py` — runnable Python script.
 - `Task-01.ipynb` — notebook containing the analysis and visualizations.
-- `outputs/population_bar_chart.png` — generated bar chart.
-- `outputs/population_distribution_histogram.png` — generated histogram.
+- `outputs/population_bar_chart.svg` — repository preview of the bar chart.
+- `outputs/population_distribution_histogram.svg` — repository preview of the histogram.
 - `outputs/top15_population.csv` — generated top-15 data.
+- When `task01.py` is run, it also generates PNG versions of both charts.
 
 ## Libraries
 - pandas
