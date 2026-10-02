@@ -1,0 +1,7 @@
+metric,value
+original_rows,891
+original_columns,12
+missing_age_before,177
+missing_embarked_before,2
+missing_cabin_before,687
+missing_values_after_cleaning,0
