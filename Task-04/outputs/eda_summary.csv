@@ -1,0 +1,9 @@
+metric,value
+original_rows,74682
+rows_after_cleaning,73824
+unique_topics,32
+positive_posts,20619
+negative_posts,22312
+neutral_posts,18051
+irrelevant_posts,12842
+duplicate_rows,2707
