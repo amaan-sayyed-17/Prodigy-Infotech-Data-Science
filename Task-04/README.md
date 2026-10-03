@@ -1,4 +1,6 @@
-# Task 04 — Social Media Sentiment Analysis
+# Task 04 — Sentiment Analysis and Visualization
+
+**Prodigy InfoTech Data Science Internship**
 
 ## Objective
 
@@ -6,55 +8,77 @@ Analyze and visualize sentiment patterns in social media data to understand publ
 
 ## Dataset
 
-This project uses the official Prodigy InfoTech Task 04 dataset:
+Official Prodigy InfoTech dataset:
+`Task 4/twitter_training.csv`
 
-- File: `twitter_training.csv`
-- Source: https://github.com/Prodigy-InfoTech/data-science-datasets/tree/main/Task%204
-
-The CSV is loaded without a header and interpreted as:
-
-1. `ID` — unique identifier
-2. `Topic` — topic/entity mentioned in the post
-3. `Sentiment` — Positive, Negative, Neutral, or Irrelevant
-4. `Tweet` — social-media text
+Columns:
+- `ID` — tweet identifier
+- `Topic` — topic/entity mentioned in the post
+- `Sentiment` — Positive, Negative, Neutral, or Irrelevant
+- `Tweet` — original social-media text
 
 ## Work performed
 
-- Loaded and inspected the dataset
-- Removed rows with missing topic, sentiment, or tweet text
-- Normalized sentiment labels
-- Cleaned tweet text by removing URLs, mentions, hashtags, punctuation, and extra spaces
-- Explored overall sentiment distribution
-- Compared sentiment across the top 10 topics/entities
-- Examined tweet-length patterns by sentiment
-- Extracted frequently occurring words for each sentiment
-- Saved cleaned data, summary metrics, and visualizations
+1. Loaded the official training CSV.
+2. Checked missing values.
+3. Removed records with missing topic, sentiment, or tweet text.
+4. Normalized sentiment labels and removed empty/invalid sentiment records.
+5. Cleaned tweet text by lowercasing and removing URLs, mentions, hashtags, punctuation, and extra whitespace.
+6. Calculated tweet length after cleaning.
+7. Visualized overall sentiment distribution.
+8. Compared sentiment counts across the 10 most frequent topics/entities.
+9. Visualized tweet-length distributions by sentiment.
+10. Extracted frequent words for each sentiment category.
 
-## Visualizations
+## Genuine execution results
 
-- Overall sentiment distribution
-- Sentiment distribution across top 10 topics
-- Tweet-length distribution by sentiment
+The results below were generated from the official `twitter_training.csv` supplied by Prodigy InfoTech. No fabricated output values were added.
 
-## Files
+| Metric | Result |
+|---|---:|
+| Original rows | 74,682 |
+| Missing tweet values | 686 |
+| Rows after cleaning | 73,824 |
+| Unique topics/entities | 32 |
+| Positive posts | 20,619 |
+| Negative posts | 22,312 |
+| Neutral posts | 18,051 |
+| Irrelevant posts | 12,842 |
 
-- `task04.py` — main Python analysis script
-- `Task-04.ipynb` — Jupyter Notebook
-- `outputs/` — generated charts and CSV summaries
+### Top 10 topics by number of posts
 
-## Requirements
+| Topic | Posts |
+|---|---:|
+| LeagueOfLegends | 2,372 |
+| CallOfDuty | 2,371 |
+| MaddenNFL | 2,370 |
+| Verizon | 2,361 |
+| Facebook | 2,360 |
+| Dota2 | 2,359 |
+| WorldOfCraft | 2,356 |
+| TomClancysRainbowSix | 2,354 |
+| Microsoft | 2,349 |
+| ApexLegends | 2,347 |
 
-Python 3.x with:
+## Outputs
 
-- pandas
-- matplotlib
+- `outputs/eda_summary.csv` — summary metrics
+- `outputs/sentiment_distribution.svg` — overall sentiment chart
+- `outputs/sentiment_by_topic.svg` — sentiment by top 10 topics
+- `outputs/sentiment_by_topic.csv` — topic/sentiment counts
+- `outputs/tweet_length_by_sentiment.svg` — tweet-length distributions
+- `outputs/top_words_by_sentiment.csv` — frequent words by sentiment
 
-Run:
+## Reproducibility
+
+`task04.py` loads the official Prodigy URL by default. It also accepts a local CSV path:
 
 ```bash
-python task04.py
+python task04.py path/to/twitter_training.csv
 ```
 
-## Note
+The notebook contains the same analysis workflow and the genuine results obtained from the supplied official dataset.
 
-The analysis is descriptive. The sentiment labels in the supplied dataset are used as provided; the project does not claim to independently reclassify the original posts.
+## Technologies
+
+Python, Pandas, Matplotlib, Jupyter Notebook, Regular Expressions
