@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<rect width="100%" height="100%" fill="white"/><text x="450" y="42" text-anchor="middle" font-family="Arial" font-size="24">Overall Social Media Sentiment Distribution</text>
+<line x1="90" y1="470" x2="850" y2="470" stroke="black"/><line x1="90" y1="70" x2="90" y2="470" stroke="black"/>
+<text x="30" y="275" transform="rotate(-90 30 275)" font-family="Arial" font-size="16">Number of posts</text>
+<rect x="150" y="120" width="130" height="350"/><rect x="330" y="151" width="130" height="319"/><rect x="510" y="176" width="130" height="294"/><rect x="690" y="270" width="130" height="200"/>
+<text x="215" y="495" text-anchor="middle" font-family="Arial">Negative</text><text x="395" y="495" text-anchor="middle" font-family="Arial">Positive</text><text x="575" y="495" text-anchor="middle" font-family="Arial">Neutral</text><text x="755" y="495" text-anchor="middle" font-family="Arial">Irrelevant</text>
+<text x="215" y="108" text-anchor="middle" font-family="Arial" font-size="16">22,312</text><text x="395" y="139" text-anchor="middle" font-family="Arial" font-size="16">20,619</text><text x="575" y="164" text-anchor="middle" font-family="Arial" font-size="16">18,051</text><text x="755" y="258" text-anchor="middle" font-family="Arial" font-size="16">12,842</text>
+</svg>
