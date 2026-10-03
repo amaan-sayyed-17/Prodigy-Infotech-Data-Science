@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="100%" height="100%" fill="white"/><text x="600" y="38" text-anchor="middle" font-family="Arial" font-size="22">Sentiment Distribution Across Top 10 Topics</text>
+<line x1="100" y1="540" x2="1140" y2="540" stroke="black"/><line x1="100" y1="70" x2="100" y2="540" stroke="black"/>
+<g font-family="Arial" font-size="12" text-anchor="middle">
+<text x="155" y="575" transform="rotate(35 155 575)">ApexLegends</text><text x="260" y="575" transform="rotate(35 260 575)">CallOfDuty</text><text x="365" y="575" transform="rotate(35 365 575)">Dota2</text><text x="470" y="575" transform="rotate(35 470 575)">Facebook</text><text x="575" y="575" transform="rotate(35 575 575)">LeagueOfLegends</text><text x="680" y="575" transform="rotate(35 680 575)">MaddenNFL</text><text x="785" y="575" transform="rotate(35 785 575)">Microsoft</text><text x="890" y="575" transform="rotate(35 890 575)">TomClancysRainbowSix</text><text x="995" y="575" transform="rotate(35 995 575)">Verizon</text><text x="1100" y="575" transform="rotate(35 1100 575)">WorldOfCraft</text></g>
+<g font-family="Arial" font-size="11"><text x="50" y="75">2,000</text><text x="55" y="540">0</text></g>
+<g stroke="none"><rect x="125" y="391" width="18" height="149"/><rect x="143" y="401" width="18" height="139"/><rect x="161" y="320" width="18" height="220"/><rect x="179" y="495" width="18" height="45"/>
+<rect x="230" y="435" width="18" height="105"/><rect x="248" y="333" width="18" height="207"/><rect x="266" y="452" width="18" height="88"/><rect x="284" y="381" width="18" height="159"/>
+<rect x="335" y="404" width="18" height="136"/><rect x="353" y="357" width="18" height="183"/><rect x="371" y="402" width="18" height="138"/><rect x="389" y="439" width="18" height="101"/>
+<rect x="440" y="498" width="18" height="42"/><rect x="458" y="361" width="18" height="179"/><rect x="476" y="354" width="18" height="186"/><rect x="494" y="395" width="18" height="145"/>
+<rect x="545" y="396" width="18" height="144"/><rect x="563" y="391" width="18" height="149"/><rect x="581" y="348" width="18" height="192"/><rect x="599" y="466" width="18" height="74"/>
+<rect x="650" y="447" width="18" height="93"/><rect x="668" y="143" width="18" height="397"/><rect x="686" y="494" width="18" height="46"/><rect x="704" y="519" width="18" height="21"/>
+<rect x="755" y="399" width="18" height="141"/><rect x="773" y="361" width="18" height="179"/><rect x="791" y="350" width="18" height="190"/><rect x="809" y="496" width="18" height="44"/>
+<rect x="860" y="420" width="18" height="120"/><rect x="878" y="277" width="18" height="263"/><rect x="896" y="388" width="18" height="152"/><rect x="914" y="518" width="18" height="22"/>
+<rect x="965" y="416" width="18" height="124"/><rect x="983" y="286" width="18" height="254"/><rect x="1001" y="408" width="18" height="132"/><rect x="1019" y="498" width="18" height="42"/>
+<rect x="1070" y="367" width="18" height="173"/><rect x="1088" y="462" width="18" height="78"/><rect x="1106" y="294" width="18" height="246"/><rect x="1124" y="489" width="18" height="51"/></g>
+<text x="620" y="625" text-anchor="middle" font-family="Arial" font-size="14">Bars in each group: Positive, Negative, Neutral, Irrelevant</text>
+</svg>
